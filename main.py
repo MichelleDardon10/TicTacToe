@@ -1,6 +1,6 @@
 '''
 Tic-tac-toe game utils.
-dskfajñsldkjfañlskdjfñalksjdf
+
 '''
 
 
@@ -23,8 +23,8 @@ def update_board(board, position, player):
     pass
 
 
-def check_for_winner(board, player):
-    # TODO: evaluar si el jugador indicado ha ganado la partida.
+def check_for_winner(board):
+    
     pass
 
 
@@ -33,3 +33,4 @@ Testing:
 '''
 board = create_empty_board()
 print_board(board)
+movida = update_board(board,1)
