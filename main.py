@@ -47,3 +47,4 @@ Testing:
 board = create_empty_board()
 print_board(board)
 movida = update_board(board,1)
+check_for_winner(board)
